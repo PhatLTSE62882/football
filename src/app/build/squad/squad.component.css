@@ -60,6 +60,7 @@
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     overflow-y: scroll;
+
 }
 #config, #squad {
     height: 600px;
@@ -232,6 +233,7 @@
     font-size: 16px;
 }
 .button {
+    
     display: block;
     padding: 12px;
     padding-top: 9px;
@@ -427,3 +429,15 @@
     position: absolute;
     top: 180px;
   }
+
+  .submitArea .saveButton {
+    margin-right: 0;
+    margin-left: 40px;
+
+   
+}
+.submitArea button {
+
+    display: inline-block;
+    width: 220px;
+}
