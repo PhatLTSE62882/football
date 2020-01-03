@@ -1,0 +1,284 @@
+.background-bright {
+    padding: 25px 10px;
+}
+.background-bright {
+    background-image: url(../../../assets/image/base/darkbackground.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #1C1C1C;
+    background-position: top left;
+    padding: 10px 50px 50px 50px;
+}
+.no-trans-all, .no-trans-all * {
+    transition: none !important;
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+}
+* {
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    background: #10111f;
+    color: #000;
+    -webkit-text-size-adjust: 100%;
+    font-weight: 400;
+    font-family: 'Maven Pro', sans-serif;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+.background-bright .wrap {
+    background: #fff;
+    padding: 17px 17px;
+    border: 14px solid rgba(178, 178, 178, 0.1);
+}
+.wrap {
+    width: 96%;
+}
+.wrap {
+    position: relative;
+    width: 94%;
+    max-width: 1210px;
+    margin: 0px auto;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.search .table-container {
+    width: 100%;
+    overflow: auto;
+}
+.table-container {
+    -webkit-overflow-scrolling: touch;
+}
+.search table, .search table tr {
+    width: 1115px;
+    overflow: visible;
+    max-width: 9999px;
+}
+.results {
+    width: 100%;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+table {
+    border-collapse: collapse;
+}
+.results .head td {
+    vertical-align: bottom;
+    font-weight: 500;
+    line-height: 17px;
+    font-size: 11px;
+}
+.results td {
+    border: 0px !important;
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+a:not([href]):not([tabindex]) {
+    color: inherit;
+    text-decoration: none;
+}
+.results a {
+    color: #161f02;
+}
+.results tr:nth-child(even) {
+    background: #f5f5f1;
+}
+.results .table-row .player-img {
+    height: 60px;
+    width: auto;
+}
+.results .table-row .name {
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+p {
+    margin-bottom: 2px !important;
+    margin-top: 0px !important;
+}
+.results .table-row .nation, .results .table-row .club {
+    width: 23px;
+    margin-right: 5px;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.results .table-row .team {
+    font-size: 11px;
+    margin-bottom: 0px;
+}
+.results .table-row .nation, .results .table-row .club {
+    width: 23px;
+    margin-right: 5px;
+}
+.results .table-row .team a {
+    color: #646464;
+}
+.otherversion18 {
+    width: 35px;
+    height: 46px;
+    position: relative;
+    background-size: 35px 46px;
+    margin: 0px auto;
+}
+.otherversion20-icon {
+    background-image: url(https://www.futwiz.com/assets/img/fifa20/items/small/icon.png);
+    color: #625217;
+}
+.otherversion18-txt {
+    font-family: 'DIN Pro Condensed Bold';
+    font-size: 18px;
+    position: absolute;
+    top: 10px;
+    width: 35px;
+    text-align: center;
+}
+.results .table-row td {
+    vertical-align: middle;
+    font-size: 14px;
+    color: #383838;
+}
+.results .statCol {
+    background: #eef3f1;
+}
+.results .statLabel {
+    display: block;
+    text-align: center;
+    font-size: 10px;
+}
+.results .stat {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    display: block;
+    margin-top: -7px;
+}
+.results td {
+    border: 0px !important;
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+.results .starRating {
+    font-size: 14px;
+    font-weight: 500;
+}
+.results .starRating .fa-star {
+    color: #8bbe0c;
+    margin-right: -2px;
+}
+.results .wrs {
+    font-size: 14px;
+    color: #a8a8a8;
+}
+.results .green {
+    color: #1e8018;
+}
+.results .orange {
+    color: #f37c37;
+}
+.pagination {
+    margin-top: 50px;
+    background: #393939;
+    border-radius: 25px;
+    width: 100%;
+}
+.pagination .row {
+    width: 100%;
+    margin: 0px;
+}
+.row {
+  
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.pagination .row .col-2 {
+    width: 16.666667% !important;
+    max-width: 16.666667% !important;
+    padding: 0px !important;
+    flex: 0 0 16.666667% !important;
+    -ms-flex: 0 0 16.666667% !important;
+}
+
+.pagination .next .btn {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+
+.col-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+.pagination .prev .btn {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.pagination .btn {
+    color: #fff;
+    background: #8abd0b;
+    background: linear-gradient(#8abd0b, #78a407, #678e04);
+    border: 0;
+    display: block;
+    font-size: 19px;
+    padding: 9px;
+    height:auto
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}

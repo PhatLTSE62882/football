@@ -1,0 +1,429 @@
+#main{
+    background-color: silver;
+ 
+        font-size: 14px;
+        background-color: #f5f5f5;
+        font-family: Open Sans,Helvetica,"sans-serif";
+        margin: 0;
+        padding: 0;
+        background-image: url(https://www.futwiz.com/assets/img/site/darkbackground.png);
+
+    
+    
+}
+.container {
+    margin-top: 15px;
+}
+.field-config-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.submitArea {
+    margin-bottom: 3px;
+}
+.messages, .submitArea {
+    width: 780px;
+    margin: 0 auto;
+}
+.submitArea .inputDiv {
+    width: 220px;
+    display: inline-block;
+}
+.input-box {
+    padding: 9px 0 9px 12px;
+    min-width: 100px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    color: #222;
+    font-size: 14px;
+    border: 1px solid #c7c7c7;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.config-and-field {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+#config {
+    display: inline-block!important;
+    
+}
+#config {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    overflow-y: scroll;
+}
+#config, #squad {
+    height: 600px;
+    width: 300px;
+    background: #fff;
+}
+.react-tabs [role=tablist] {
+
+    margin: 0 0 10px;
+    padding: 0;
+ 
+}
+.react-tabs [role=tab][aria-selected=true] {
+    font-weight: 700;
+}
+.react-tabs [role=tab][aria-selected=true] {
+    background: #fff;
+    border-color: #aaa;
+    color: black;
+    border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+}
+.react-tabs [role=tab] {
+    color: #155674;
+}
+.react-tabs [role=tab] {
+    display: inline-block;
+    border: 1px solid transparent;
+    bottom: -1px;
+    position: relative;
+    list-style: none;
+    padding: 6px 12px;
+    cursor: pointer;
+
+}
+#config .field-name {
+    width: 90%;
+    margin-top:10px;
+    font-weight: 700;
+    color: #3f3f3f;
+    
+}
+#config .Select, #config select {
+    margin: 0 auto;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    width: 90%;
+}
+.Select {
+    position: relative;
+}
+.Select, .Select div, .Select input, .Select span {
+    box-sizing: border-box;
+}
+.Select-control {
+    background-color: #fff;
+    border-color: #d9d9d9 #ccc #b3b3b3;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    color: #333;
+    cursor: default;
+    display: table;
+    border-spacing: 0;
+    border-collapse: separate;
+    height: 36px;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.example-container {
+    width: 400px;
+    max-width: 100%;
+    margin: 0 25px 25px 0;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .example-list {
+    border: solid 1px #ccc;
+    min-height: 60px;
+    background: white;
+    border-radius: 4px;
+    overflow: hidden;
+    display: block;
+    width: 170px;
+  }
+  
+  .example-box {
+    padding: 20px 10px;
+    border-bottom: solid 1px #ccc;
+    color: rgba(0, 0, 0, 0.87);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    cursor: move;
+    background: white;
+    font-size: 14px;
+    background-image: url(https://www.futwiz.com/assets/img/site/darkbackground.png);
+  }
+  
+  .cdk-drag-preview {
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
+                0 8px 10px 1px rgba(0, 0, 0, 0.14),
+                0 3px 14px 2px rgba(0, 0, 0, 0.12);
+  }
+  
+  .cdk-drag-placeholder {
+    opacity: 0;
+  }
+  
+  .cdk-drag-animating {
+    transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+  }
+  
+  .example-box:last-child {
+    border: none;
+  }
+  
+  .example-list.cdk-drop-list-dragging .example-box:not(.cdk-drag-placeholder) {
+    transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+  }
+  
+  
+  
+  #field.striped {
+    background: url('../../../assets/image/base/baseposition.png');
+    background-size: 480px 600px;
+  }  
+  #field {
+    height: 600px;
+    width: 480px;
+    position: relative;
+  }
+  .player {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+  }
+  .player .pos-text {
+    top: 13px;
+    font-size: 15px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    font-weight: 700;
+    margin-top:15px;
+  }
+  .space{
+      height:20px;
+  }
+  .submitArea .save-download-buttons {
+    display: inline-block;
+    float: right;
+}
+.submitArea select {
+    display: inline-block;
+    width: 220px;
+}
+.button.blue {
+    background-color: #3ea055;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+}
+.button {
+    display: block;
+    padding: 12px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    min-width: 100px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    background-color: #fff;
+    text-align: center;
+    color: #222;
+    font-size: 14px;
+    border: 1px solid #c7c7c7;
+    border-radius: 5px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -webkit-transition: background-color .2s ease-in-out;
+    transition: background-color .2s ease-in-out;
+}
+/* player face */
+.card-20-builder {
+    font-family: 'DIN Pro Condensed Bold';
+    position: relative;
+    width: 152px;
+    height: 215px;
+    text-transform: uppercase;
+    line-height: normal !important;
+    margin-left: -3px;
+    margin-top: -5px;
+  }
+  .card-20-builder-icon {
+    background: url(https://www.futwiz.com/assets/img/fifa20/items/icon.png);
+    color: #625217;
+    background-repeat: no-repeat;
+    background-size: 164px 229px;
+    background-position: center;
+  }
+  .card-20-builder-face {
+    position: absolute;
+    right: 20px;
+    top: 28px;
+    overflow: hidden;
+    width: 85px;
+    height: 85px;
+    z-index: 9;
+  }
+  .card-20-builder-face-inner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  .card-20-builder-face-inner img {
+    height: 85px;
+    margin-left:10px;
+  }
+  .card-20-builder-badge {
+    position: absolute;
+    top: 87px;
+    left: 28px;
+    z-index: 11;
+  }
+  .card-20-builder-badge img {
+    max-height: 24px;
+    max-width: 24px;
+  }
+  img {
+    vertical-align: middle;
+    border-style: none;
+  }
+  .card-20-builder-flag {
+    position: absolute;
+    top: 66px;
+    left: 30px;
+    z-index: 11;
+  }
+  .card-20-builder-flag img {
+    height: 12px;
+  }
+  .card-20-builder-name {
+    font-family: 'DIN Pro Condensed Bold';
+    font-size: 14px;
+    position: absolute;
+    top: 115px;
+    left: 15px;
+    width: 124px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    z-index: 11;
+  }
+  .card-20-builder-rating {
+    font-family: 'DIN Pro Condensed Regular';
+    font-size: 20px;
+    position: absolute;
+    top: 23px;
+    left: 28px;
+    width: 30px;
+    text-align: center;
+    z-index: 11;
+  }
+  .card-20-builder-position {
+      font-family: 'DIN Pro Condensed Regular';
+      font-size: 14px;
+      position: absolute;
+      top: 49px;
+      left: 28px;
+      width: 26px;
+      text-align: center;
+      z-index: 11;
+  }
+  .card-20-builder-atts {
+    font-family: 'DIN Pro Condensed Bold';
+    position: absolute;
+    top: 132px;
+    left: 32px;
+    z-index: 11;
+  }
+  .card-20-builder-atts1 {
+    position: absolute;
+    top: 2px;
+  }
+  .card-20-builder-attnum1, .card-20-builder-attnum2, .card-20-builder-attnum3 {
+    position: absolute;
+    
+  }
+  .card-20-builder-attnum {
+    font-size: 14px;
+  }
+  .card-20-builder-attlabel1, .card-20-builder-attlabel2, .card-20-builder-attlabel3 {
+    position: absolute;
+    left: 16px;
+  }
+  .card-20-builder-attlabel {
+    font-family: 'DIN Pro Condensed Medium';
+    font-size: 14px;
+  }
+  .card-20-builder-attnum4, .card-20-builder-attnum5, .card-20-builder-attnum6 {
+    position: absolute;
+    left: 50px;
+  }
+  .card-20-builder-attlabel4, .card-20-builder-attlabel5, .card-20-builder-attlabel6 {
+    position: absolute;
+    left: 66px;
+  }
+  .card-20-builder-atts2 {
+    position: absolute;
+    top: 16px;
+  }
+  .card-20-builder-atts3 {
+    position: absolute;
+    top: 30px;
+  }
+  .card-20-builder-icon .card-20-builder-headeroverlay {
+    background: -moz-linear-gradient(top, rgba(255,255,255,0) 8%, rgba(255,255,255,1) 29%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 81%, rgba(255,255,255,0) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 8%,rgba(255,255,255,1) 29%,rgba(255,255,255,1) 50%,rgba(255,255,255,1) 81%,rgba(255,255,255,0) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 8%,rgba(255,255,255,1) 29%,rgba(255,255,255,1) 50%,rgba(255,255,255,1) 81%,rgba(255,255,255,0) 100%);
+    display: block;
+  }
+  .card-20-builder-flag-split {
+    height: 20px;
+    width: 16px;
+    left: 32px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    position: absolute;
+    top: 65px;
+  }
+  .card-20-builder-split {
+    z-index: 11;
+  }
+  .card-20-builder-name-split {
+    height: 1px;
+    width: 95px;
+    left: 30px;
+    border-bottom: 1px solid;
+    position: absolute;
+    top: 132px;
+  }
+  .card-20-builder-atts-split {
+    height: 41px;
+    width: 1px;
+    left: 78px;
+    border-left: 1px solid;
+    position: absolute;
+    top: 136px;
+  }
+  .card-20-builder-chem-split {
+    height: 1px;
+    width: 20px;
+    left: 68px;
+    border-bottom: 1px solid;
+    position: absolute;
+    top: 180px;
+  }

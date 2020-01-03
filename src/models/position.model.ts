@@ -1,0 +1,21 @@
+export class Position
+{
+    id:number;
+    cb:number;
+    cdm:number;
+    cm:number;
+    cam:number;
+    cf:number;
+    st:number;
+    lw:number;
+    lf:number;
+    rf:number;
+    rw:number;
+    lm:number;
+    rm:number;
+    rb:number;
+    rwb:number;
+    lb:number;
+    lwb:number;
+    player:number;
+}

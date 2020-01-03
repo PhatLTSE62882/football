@@ -1,1 +1,128 @@
-/* You can add global styles to this file, and also import other style files */
+.top_page {
+    background-color: #202d5f;
+    height: 250px;
+    position: relative;
+    margin-bottom: 70px;
+}
+div {
+    display: block;
+}
+body {
+    font-family: trebuchet ms;
+    margin: 0;
+}
+body {
+    margin: 0;
+    font-family: Trebuchet MS;
+    font-size: 15px;
+}
+.middlebar {
+    background-image: url(assets/image/base/bn.jpg);
+    display: inline-block;
+    height: 42px;
+    margin-top: 121px;
+    vertical-align: middle;
+    width: 100%;
+}
+.languages {
+    width: 33%;
+    padding-top: 12px;
+}
+
+.logo a {
+    background-image: url(assets/image/base/footballdatabase.eu.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px auto;
+    display: inline-block;
+    height: 240px;
+    width: 300px;
+
+}
+.logo {
+    display: inline-block;
+    height: 240px;
+    margin-top: -121.5px;
+    width: 300px;
+margin-left:60px
+
+}
+
+.twitter {
+    background-position: 43px 0;
+}
+
+.social, .rapidsearch, .connect, .languages {
+    height: 40px;
+    display: inline-block;
+    vertical-align: top;
+}
+.social {
+    width: 8%;
+   
+}
+.social {
+    padding-top: 13px;
+    text-align: right;
+}
+.facebook, .twitter, .googleplus {
+    background-image: url(assets/image/base/social.jpg);
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    padding-bottom: 20px;
+  
+}
+.rapidsearch {
+    padding-top: 10px;
+    padding-left:15px
+}
+.rapidsearch {
+    width: 14%;
+}
+.quicksearch input[type="text"] {
+    background-color: #2754a5;
+    border: 0;
+    border-radius: 7px;
+    font-size: 12px;
+    width: 70%;
+    padding-right: 20px;
+    padding-left: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color: #FFFFFF;
+}
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+.quicksearch input[type="image"] {
+    width: 10px;
+    margin-left: -20px;
+}
+input[type="image" i] {
+    -webkit-appearance: initial;
+    background-color: initial;
+    cursor: pointer;
+    padding: initial;
+    border: initial;
+}
+@font-face {font-family: "DIN Pro Cond Bold"; src: url("//db.onlinewebfonts.com/t/15306c0d39902fe98c8e61a1a2995a1f.eot"); src: url("//db.onlinewebfonts.com/t/15306c0d39902fe98c8e61a1a2995a1f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/15306c0d39902fe98c8e61a1a2995a1f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/15306c0d39902fe98c8e61a1a2995a1f.woff") format("woff"), url("//db.onlinewebfonts.com/t/15306c0d39902fe98c8e61a1a2995a1f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/15306c0d39902fe98c8e61a1a2995a1f.svg#DIN Pro Cond Bold") format("svg"); }

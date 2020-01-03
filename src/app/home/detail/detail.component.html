@@ -1,0 +1,592 @@
+<div class="main-content background-dark">
+    <div class="wrap">
+        <div class="playerprofile-head">
+            <div class="playerprofile-hbar">
+                <div class="playerprofile-hbar-ttl" style=" display: inline-block;">
+                    <h1>{{detail.name}}</h1>
+                    <div style="font-size:14px;margin-top:-10px;">Non-Inform |
+                        <a href="/en/fifa20/nation/argentina/rating/all/52/0">{{detail.nation}}</a> |
+                        <a href="/en/fifa20/club/d.c.-united/rating/all/all/688/0">{{detail.teamNavigation.name}}</a> |
+                        <a href="/en/fifa20/league/mls/rating/all/all/39/0">{{detail.teamNavigation.league}}</a></div>
+                </div>
+                <div class="playerprofile-hbar-club">
+                    <a href="/en/fifa20/club/d.c.-united/rating/all/all/688/0"><img
+                            src="{{this.detail.flag}}"></a>
+                </div>
+                <div class="playerprofile-sep"></div>
+                <div class="playerprofile-hbar-nat"><a href="/en/fifa20/nation/argentina/rating/all/52/0"><img
+                            src="{{this.detail.flag}}"></a>
+                </div>
+            </div>
+            <div class="playerprofile-itemblock">
+                <div class="playerprofile-item">
+                    <div style="filter:drop-shadow(0px 0px 10px rgba(255,255,255,0.3));">
+                        <div class="card-20 card-20-gold">
+                            <div class="card-20-face">
+                                <div class="card-20-face-inner">
+                                    <img src="{{detail.face}}"
+                                        alt="Luciano Acosta 76 Rated">
+                                </div>
+                            </div>
+                            <div class="card-20-badge"><img
+                                    src="https://www.futwiz.com/assets/img/fifa20/badges/688.png" alt="Badge">
+                            </div>
+                            <div class="card-20-flag"><img src="https://www.futwiz.com/assets/img/fifa19/flags/52.png"
+                                    alt="Nation"></div>
+                            <div class="card-20-name">Acosta</div>
+                            <div class="card-20-rating">{{detail.ovr}}</div>
+                            <div class="card-20-position">CAM</div>
+                            <div class="card-20-atts">
+                                <div class="card-20-atts1">
+                                    <div class="card-20-attnum card-20-attnum1">{{detail.pac}}</div>
+                                    <div class="card-20-attlabel card-20-attlabel1">PAC</div>
+                                    <div class="card-20-attnum card-20-attnum4">{{detail.dri}}</div>
+                                    <div class="card-20-attlabel card-20-attlabel4">DRI</div>
+                                </div>
+                                <div class="card-20-atts2">
+                                    <div class="card-20-attnum card-20-attnum2">{{detail.sho}}</div>
+                                    <div class="card-20-attlabel card-20-attlabel2">SHO</div>
+                                    <div class="card-20-attnum card-20-attnum5">{{detail.def}}</div>
+                                    <div class="card-20-attlabel card-20-attlabel5">DEF</div>
+                                </div>
+                                <div class="card-20-atts3">
+                                    <div class="card-20-attnum card-20-attnum3">{{detail.pas}}</div>
+                                    <div class="card-20-attlabel card-20-attlabel3">PAS</div>
+                                    <div class="card-20-attnum card-20-attnum6">{{detail.phy}}</div>
+                                    <div class="card-20-attlabel card-20-attlabel6">PHY</div>
+                                </div>
+                            </div>
+                            <div class="card-20-split card-20-flag-split"></div>
+                            <div class="card-20-split card-20-name-split"></div>
+                            <div class="card-20-split card-20-atts-split"></div>
+                            <div class="card-20-split card-20-chem-split"></div>
+                            <div class="card-20-chemstyleimg"><i class="chemicon-fw"></i></div>
+                        </div>
+                    </div>
+                    <div align="center">
+                        <div
+                            style="font-size:10px;color:#fff;margin-bottom: 5px;font-family: 'DIN Pro Condensed Medium';">
+                            FIGHTS FOR THE BADGE?
+                        </div>
+                        <a style="
+                            padding: 5px;
+                            background: #aeea2e;
+                            border-top-left-radius: 5px;
+                            border-bottom-left-radius: 5px;
+                            color: #000;
+                            font-family: 'DIN Pro Condensed Bold';
+                            text-transform: uppercase;
+                            font-size: 15px;
+                        ">
+                            Yes:71%
+                        </a>
+                        <a style="
+                         
+                            padding: 5px;
+                            background: #ff653f;
+                            border-top-right-radius: 5px;
+                            border-bottom-right-radius: 5px;
+                            color: #000;
+                            font-family: 'DIN Pro Condensed Bold';
+                            text-transform: uppercase;
+                            font-size: 15px;
+                        ">
+                            No:29%
+                        </a>
+                    </div>
+                </div>
+                <div class="playerprofile-data">
+                    <div class="playerprofile-prices">
+                        <div class="playerprofile-prices-data" style="vertical-align:top;">
+                            <div class="playerprofile-prices-xbox">
+                                <div class="pull-left">
+                                    <div class="pricelogo"><img
+                                            src="https://www.futwiz.com/assets/img/prices-xb-logo.png"></div>
+                                </div>
+                                <div class="pull-right priceupdate">
+                                    <span style="font-size: 12px;" class="updatedtxt"> {{detail.tradingMarket[0].xtime}}</span>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="playerprofile-price">
+                                    {{detail.tradingMarket[0].xprice}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="playerprofile-prices-data" style="vertical-align:top;">
+                            <div class="playerprofile-prices-ps">
+                                <div class="pull-left">
+                                    <div class="pricelogo"><img
+                                            src="https://www.futwiz.com/assets/img/prices-ps-logo.png"></div>
+                                </div>
+                                <div class="pull-right priceupdate">
+                                    <span style="font-size: 12px;" class="updatedtxt"> {{detail.tradingMarket[0].ps4time}}</span>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="playerprofile-price">
+                                    {{detail.tradingMarket[0].ps4price}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="playerprofile-info">
+                        <div class="playerprofile-db">
+                            <p class="ppdb-d ppskills"> 5
+                                <svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" data-prefix="fa"
+                                    data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
+                                    data-fa-i2svg="">
+                                    <path fill="currentColor"
+                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                    </path>
+                                </svg>
+                            </p>
+                            <p class="ppdb-l">Skills</p>
+                        </div>
+                        <div class="playerprofile-db">
+                            <p class="ppdb-d ppskills">3 <svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true"
+                                    data-prefix="fa" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 576 512" data-fa-i2svg="">
+                                    <path fill="currentColor"
+                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                    </path>
+                                </svg><!-- <i class="fa fa-star"></i> -->
+                            </p>
+                            <p class="ppdb-l">Weakfoot</p>
+                        </div>
+                        <div class="playerprofile-db">
+                            <p class="ppdb-d">25</p>
+                            <p class="ppdb-l">AGE</p>
+                        </div>
+                        <div class="playerprofile-db">
+                            <p class="ppdb-d">5' 3"</p>
+                            <p class="ppdb-l">161cm TALL</p>
+                        </div>
+                        <div class="playerprofile-db">
+                            <p class="ppdb-d">61kg</p>
+                            <p class="ppdb-l">Weight</p>
+                        </div>
+                        <div class="playerprofile-db">
+                            <p class="ppdb-d">High/Med</p>
+                            <p class="ppdb-l">Workrates</p>
+                        </div>
+                        <div class="playerprofile-db">
+                            <p class="ppdb-d">Right</p>
+                            <p class="ppdb-l">Footed</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="playerprofile-other">
+            <div class="playerprofile-otherversion">
+                <a>
+                    <div class="otherversion20 otherversion20-sbc">
+                        <div class="otherversion20-txt">
+                            84
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="playerprofile-stats">
+            <div class="playerprofile-stats-data">
+                <div class="row stats">
+                    <div class="col-2">
+                        <div class="statBlock">
+                            <div class="title">
+                                <div class="pull-left padtop-5">Pac</div>
+                                <div class="highestbarcolour att1bar">95</div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="individual-stat-container" data-percentage="96">
+                                <div class="individual-stat-bar-label">Acceleration<span class="accelerationboost"
+                                        style="padding-left:0px;font-size:10px;position:absolute;right:-15px;top:4px;"></span>
+                                </div>
+                                <div class="individual-stat-bar-stat textcolour accelerationstat">95</div>
+                                <div class="individual-stat-bar-back"></div>
+                                <div class="individual-stat-bar-front highestbarcolour accelerationbar"
+                                    style="overflow: hidden; width: 96%;"></div>
+                            </div>
+                            <div class="individual-stat-container" data-percentage="96">
+                                <div class="individual-stat-bar-label">Sprint Speed<span class="sprintspeedboost"
+                                        style="padding-left:0px;font-size:10px;position:absolute;right:-15px;top:4px;"></span>
+                                </div>
+                                <div class="individual-stat-bar-stat textcolour sprintspeedstat">95</div>
+                                <div class="individual-stat-bar-back"></div>
+                                <div class="individual-stat-bar-front highestbarcolour sprintspeedbar"
+                                    style="overflow: hidden; width: 96%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="statBlock">
+                            <div class="title">
+                                <div class="pull-left padtop-5">Sho</div>
+                                <div class="highestbarcolour att2bar">96</div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="individual-stat-container" data-percentage="98">
+                                <div class="individual-stat-bar-label">Positioning<span class="positioningboost"
+                                        style="padding-left:0px;font-size:10px;position:absolute;right:-15px;top:4px;"></span>
+                                </div>
+                                <div class="individual-stat-bar-stat textcolour positioningstat">97</div>
+                                <div class="individual-stat-bar-back"></div>
+                                <div class="individual-stat-bar-front highestbarcolour positioningbar"
+                                    style="overflow: hidden; width: 98%;"></div>
+                            </div>
+                            <div class="individual-stat-container" data-percentage="99">
+                                <div class="individual-stat-bar-label">Finishing<span class="finishingboost"
+                                        style="padding-left:0px;font-size:10px;position:absolute;right:-15px;top:4px;"></span>
+                                </div>
+                                <div class="individual-stat-bar-stat textcolour finishingstat">98</div>
+                                <div class="individual-stat-bar-back"></div>
+                                <div class="individual-stat-bar-front highestbarcolour finishingbar"
+                                    style="overflow: hidden; width: 99%;"></div>
+                            </div>
+                            <div class="individual-stat-container" data-percentage="95">
+                                <div class="individual-stat-bar-label">Shot Power<span class="shotpowerboost"
+                                        style="padding-left:0px;font-size:10px;position:absolute;right:-15px;top:4px;"></span>
+                                </div>
+                                <div class="individual-stat-bar-stat textcolour shotpowerstat">94</div>
+                                <div class="individual-stat-bar-back"></div>
+                                <div class="individual-stat-bar-front highestbarcolour shotpowerbar"
+                                    style="overflow: hidden; width: 95%;"></div>
+                            </div>
+                            <div class="individual-stat-container" data-percentage="95">
+                                <div class="individual-stat-bar-label">Long Shots<span class="longshotboost"
+                                        style="padding-left:0px;font-size:10px;position:absolute;right:-15px;top:4px;"></span>
+                                </div>
+                                <div class="individual-stat-bar-stat textcolour longshotstat">94</div>
+                                <div class="individual-stat-bar-back"></div>
+                                <div class="individual-stat-bar-front highestbarcolour longshotbar"
+                                    style="overflow: hidden; width: 95%;"></div>
+                            </div>
+                            <div class="individual-stat-container" data-percentage="96">
+                                <div class="individual-stat-bar-label">Volleys<span class="volleysboost"
+                                        style="padding-left:0px;font-size:10px;position:absolute;right:-15px;top:4px;"></span>
+                                </div>
+                                <div class="individual-stat-bar-stat textcolour volleysstat">95</div>
+                                <div class="individual-stat-bar-back"></div>
+                                <div class="individual-stat-bar-front highestbarcolour volleysbar"
+                                    style="overflow: hidden; width: 96%;"></div>
+                            </div>
+                            <div class="individual-stat-container" data-percentage="94">
+                                <div class="individual-stat-bar-label">Penalties<span class="penaltiesboost"
+                                        style="padding-left:0px;font-size:10px;position:absolute;right:-15px;top:4px;"></span>
+                                </div>
+                                <div class="individual-stat-bar-stat textcolour penaltiesstat">93</div>
+                                <div class="individual-stat-bar-back"></div>
+                                <div class="individual-stat-bar-front highestbarcolour penaltiesbar"
+                                    style="overflow: hidden; width: 94%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="statBlock">
+                            <div class="title">
+                                <div class="pull-left padtop-5">Pas</div>
+                                <div class="highestbarcolour att3bar">93</div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="individual-stat-container" data-percentage="98">
+                                <div class="individual-stat-bar-label">Vision<span class="visionboost"
+                                        style="padding-left:0px;font-size:10px;position:absolute;right:-15px;top:4px;"></span>
+                                </div>
+                                <div class="individual-stat-bar-stat textcolour visionstat">97</div>
+                                <div class="individual-stat-bar-back"></div>
+                                <div class="individual-stat-bar-front highestbarcolour visionbar"
+                                    style="overflow: hidden; width: 98%;"></div>
+                            </div>
+                            <div class="individual-stat-container" data-percentage="91">
+                                <div class="individual-stat-bar-label">Crossing<span class="crossingboost"
+                                        style="padding-left:0px;font-size:10px;position:absolute;right:-15px;top:4px;"></span>
+                                </div>
+                                <div class="individual-stat-bar-stat textcolour crossingstat">90</div>
+                                <div class="individual-stat-bar-back"></div>
+                                <div class="individual-stat-bar-front highestbarcolour crossingbar"
+                                    style="overflow: hidden; width: 91%;"></div>
+                            </div>
+                            <div class="individual-stat-container" data-percentage="90">
+                                <div class="individual-stat-bar-label">FK. Acc.<span class="fkaccboost"
+                                        style="padding-left:0px;font-size:10px;position:absolute;right:-15px;top:4px;"></span>
+                                </div>
+                                <div class="individual-stat-bar-stat textcolour fkaccstat">89</div>
+                                <div class="individual-stat-bar-back"></div>
+                                <div class="individual-stat-bar-front highestbarcolour fkaccbar"
+                                    style="overflow: hidden; width: 90%;"></div>
+                            </div>
+                            <div class="individual-stat-container" data-percentage="97">
+                                <div class="individual-stat-bar-label">Short Pass<span class="shortpassboost"
+                                        style="padding-left:0px;font-size:10px;position:absolute;right:-15px;top:4px;"></span>
+                                </div>
+                                <div class="individual-stat-bar-stat textcolour shortpassstat">96</div>
+                                <div class="individual-stat-bar-back"></div>
+                                <div class="individual-stat-bar-front highestbarcolour shortpassbar"
+                                    style="overflow: hidden; width: 97%;"></div>
+                            </div>
+                            <div class="individual-stat-container" data-percentage="89">
+                                <div class="individual-stat-bar-label">Long Pass<span class="longpassboost"
+                                        style="padding-left:0px;font-size:10px;position:absolute;right:-15px;top:4px;"></span>
+                                </div>
+                                <div class="individual-stat-bar-stat textcolour longpassstat">88</div>
+                                <div class="individual-stat-bar-back"></div>
+                                <div class="individual-stat-bar-front highestbarcolour longpassbar"
+                                    style="overflow: hidden; width: 89%;"></div>
+                            </div>
+                            <div class="individual-stat-container" data-percentage="90">
+                                <div class="individual-stat-bar-label">Curve<span class="curveboost"
+                                        style="padding-left:0px;font-size:10px;position:absolute;right:-15px;top:4px;"></span>
+                                </div>
+                                <div class="individual-stat-bar-stat textcolour curvestat">89</div>
+                                <div class="individual-stat-bar-back"></div>
+                                <div class="individual-stat-bar-front highestbarcolour curvebar"
+                                    style="overflow: hidden; width: 90%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="statBlock">
+                            <div class="title">
+                                <div class="pull-left padtop-5">Dri</div>
+                                <div class="highestbarcolour att4bar">96</div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="individual-stat-container" data-percentage="95">
+                                <div class="individual-stat-bar-label">Agility<span class="agilityboost"
+                                        style="padding-left:0px;font-size:10px;position:absolute;right:-15px;top:4px;"></span>
+                                </div>
+                                <div class="individual-stat-bar-stat textcolour agilitystat">94</div>
+                                <div class="individual-stat-bar-back"></div>
+                                <div class="individual-stat-bar-front highestbarcolour agilitybar"
+                                    style="overflow: hidden; width: 95%;"></div>
+                            </div>
+                            <div class="individual-stat-container" data-percentage="94">
+                                <div class="individual-stat-bar-label">Balance<span class="balanceboost"
+                                        style="padding-left:0px;font-size:10px;position:absolute;right:-15px;top:4px;"></span>
+                                </div>
+                                <div class="individual-stat-bar-stat textcolour balancestat">93</div>
+                                <div class="individual-stat-bar-back"></div>
+                                <div class="individual-stat-bar-front highestbarcolour balancebar"
+                                    style="overflow: hidden; width: 94%;"></div>
+                            </div>
+                            <div class="individual-stat-container" data-percentage="99">
+                                <div class="individual-stat-bar-label">Reactions<span class="reactionsboost"
+                                        style="padding-left:0px;font-size:10px;position:absolute;right:-15px;top:4px;"></span>
+                                </div>
+                                <div class="individual-stat-bar-stat textcolour reactionsstat">98</div>
+                                <div class="individual-stat-bar-back"></div>
+                                <div class="individual-stat-bar-front highestbarcolour reactionsbar"
+                                    style="overflow: hidden; width: 99%;"></div>
+                            </div>
+                            <div class="individual-stat-container" data-percentage="98">
+                                <div class="individual-stat-bar-label">Ball Control<span class="ballcontrolboost"
+                                        style="padding-left:0px;font-size:10px;position:absolute;right:-15px;top:4px;"></span>
+                                </div>
+                                <div class="individual-stat-bar-stat textcolour ballcontrolstat">97</div>
+                                <div class="individual-stat-bar-back"></div>
+                                <div class="individual-stat-bar-front highestbarcolour ballcontrolbar"
+                                    style="overflow: hidden; width: 98%;"></div>
+                            </div>
+                            <div class="individual-stat-container" data-percentage="97">
+                                <div class="individual-stat-bar-label">Dribbling<span class="dribblingboost"
+                                        style="padding-left:0px;font-size:10px;position:absolute;right:-15px;top:4px;"></span>
+                                </div>
+                                <div class="individual-stat-bar-stat textcolour dribblingstat">96</div>
+                                <div class="individual-stat-bar-back"></div>
+                                <div class="individual-stat-bar-front highestbarcolour dribblingbar"
+                                    style="overflow: hidden; width: 97%;"></div>
+                            </div>
+                            <div class="individual-stat-container" data-percentage="99">
+                                <div class="individual-stat-bar-label">Composure<span class="composureboost"
+                                        style="padding-left:0px;font-size:10px;position:absolute;right:-15px;top:4px;"></span>
+                                </div>
+                                <div class="individual-stat-bar-stat textcolour composurestat">98</div>
+                                <div class="individual-stat-bar-back"></div>
+                                <div class="individual-stat-bar-front highestbarcolour composurebar"
+                                    style="overflow: hidden; width: 99%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="statBlock">
+                            <div class="title">
+                                <div class="pull-left padtop-5">Def</div>
+                                <div class="mediumbarcolour att5bar">60</div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="individual-stat-container" data-percentage="68">
+                                <div class="individual-stat-bar-label">Interceptions<span class="tactawareboost"
+                                        style="padding-left:0px;font-size:10px;position:absolute;right:-15px;top:4px;"></span>
+                                </div>
+                                <div class="individual-stat-bar-stat textcolour tactawarestat">67</div>
+                                <div class="individual-stat-bar-back"></div>
+                                <div class="individual-stat-bar-front mediumbarcolour tactawarebar"
+                                    style="overflow: hidden; width: 68%;"></div>
+                            </div>
+                            <div class="individual-stat-container" data-percentage="95">
+                                <div class="individual-stat-bar-label">Heading Acc.<span class="headingaccboost"
+                                        style="padding-left:0px;font-size:10px;position:absolute;right:-15px;top:4px;"></span>
+                                </div>
+                                <div class="individual-stat-bar-stat textcolour headingaccstat">94</div>
+                                <div class="individual-stat-bar-back"></div>
+                                <div class="individual-stat-bar-front highestbarcolour headingaccbar"
+                                    style="overflow: hidden; width: 95%;"></div>
+                            </div>
+                            <div class="individual-stat-container" data-percentage="56">
+                                <div class="individual-stat-bar-label">Def. Awareness<span class="markingboost"
+                                        style="padding-left:0px;font-size:10px;position:absolute;right:-15px;top:4px;"></span>
+                                </div>
+                                <div class="individual-stat-bar-stat textcolour markingstat">55</div>
+                                <div class="individual-stat-bar-back"></div>
+                                <div class="individual-stat-bar-front mediumbarcolour markingbar"
+                                    style="overflow: hidden; width: 56%;"></div>
+                            </div>
+                            <div class="individual-stat-container" data-percentage="54">
+                                <div class="individual-stat-bar-label">Stand Tackle<span class="standingtackleboost"
+                                        style="padding-left:0px;font-size:10px;position:absolute;right:-15px;top:4px;"></span>
+                                </div>
+                                <div class="individual-stat-bar-stat textcolour standingtacklestat">53</div>
+                                <div class="individual-stat-bar-back"></div>
+                                <div class="individual-stat-bar-front mediumbarcolour standingtacklebar"
+                                    style="overflow: hidden; width: 54%;"></div>
+                            </div>
+                            <div class="individual-stat-container" data-percentage="50">
+                                <div class="individual-stat-bar-label">Slide Tackle<span class="slidetackleboost"
+                                        style="padding-left:0px;font-size:10px;position:absolute;right:-15px;top:4px;"></span>
+                                </div>
+                                <div class="individual-stat-bar-stat textcolour slidetacklestat">49</div>
+                                <div class="individual-stat-bar-back"></div>
+                                <div class="individual-stat-bar-front lowbarcolour slidetacklebar"
+                                    style="overflow: hidden; width: 50%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="statBlock">
+                            <div class="title">
+                                <div class="pull-left padtop-2">Phy</div>
+                                <div class="highbarcolour att6bar">76</div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="individual-stat-container" data-percentage="89">
+                                <div class="individual-stat-bar-label">Jumping<span class="jumpingboost"
+                                        style="padding-left:0px;font-size:10px;position:absolute;right:-15px;top:4px;"></span>
+                                </div>
+                                <div class="individual-stat-bar-stat textcolour jumpingstat">88</div>
+                                <div class="individual-stat-bar-back"></div>
+                                <div class="individual-stat-bar-front highestbarcolour jumpingbar"
+                                    style="overflow: hidden; width: 89%;"></div>
+                            </div>
+                            <div class="individual-stat-container" data-percentage="87">
+                                <div class="individual-stat-bar-label">Stamina<span class="staminaboost"
+                                        style="padding-left:0px;font-size:10px;position:absolute;right:-15px;top:4px;"></span>
+                                </div>
+                                <div class="individual-stat-bar-stat textcolour staminastat">86</div>
+                                <div class="individual-stat-bar-back"></div>
+                                <div class="individual-stat-bar-front highestbarcolour staminabar"
+                                    style="overflow: hidden; width: 87%;"></div>
+                            </div>
+                            <div class="individual-stat-container" data-percentage="77">
+                                <div class="individual-stat-bar-label">Strength<span class="strengthboost"
+                                        style="padding-left:0px;font-size:10px;position:absolute;right:-15px;top:4px;"></span>
+                                </div>
+                                <div class="individual-stat-bar-stat textcolour strengthstat">76</div>
+                                <div class="individual-stat-bar-back"></div>
+                                <div class="individual-stat-bar-front highbarcolour strengthbar"
+                                    style="overflow: hidden; width: 77%;"></div>
+                            </div>
+                            <div class="individual-stat-container" data-percentage="60">
+                                <div class="individual-stat-bar-label">Aggression<span class="aggressionboost"
+                                        style="padding-left:0px;font-size:10px;position:absolute;right:-15px;top:4px;"></span>
+                                </div>
+                                <div class="individual-stat-bar-stat textcolour aggressionstat">59</div>
+                                <div class="individual-stat-bar-back"></div>
+                                <div class="individual-stat-bar-front mediumbarcolour aggressionbar"
+                                    style="overflow: hidden; width: 60%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="playerprofile-pitch">
+                <div class="mt-10 altpos-pitch mb-20">
+                    <div class="altpos-pos poscb stat-label-high">
+                        <div class="altpos-inner-l1">71</div>
+                        <div class="altpos-inner-l2">CB</div>
+                    </div>
+                    <div class="altpos-pos poscdm stat-label-high">
+                        <div class="altpos-inner-l1">78</div>
+                        <div class="altpos-inner-l2">CDM</div>
+                    </div>
+                    <div class="altpos-pos poscm stat-label-highest">
+                        <div class="altpos-inner-l1">92</div>
+                        <div class="altpos-inner-l2">CM</div>
+                    </div>
+                    <div class="altpos-pos poscam stat-label-highest">
+                        <div class="altpos-inner-l1">97</div>
+                        <div class="altpos-inner-l2">CAM</div>
+                    </div>
+                    <div class="altpos-pos poscf stat-label-highest">
+                        <div class="altpos-inner-l1">97</div>
+                        <div class="altpos-inner-l2">CF</div>
+                    </div>
+                    <div class="altpos-pos posst stat-label-highest">
+                        <div class="altpos-inner-l1">96</div>
+                        <div class="altpos-inner-l2">ST</div>
+                    </div>
+                    <div class="altpos-pos poslw stat-label-highest">
+                        <div class="altpos-inner-l1">97</div>
+                        <div class="altpos-inner-l2">LW</div>
+                    </div>
+                    <div class="altpos-pos poslf stat-label-highest">
+                        <div class="altpos-inner-l1">97</div>
+                        <div class="altpos-inner-l2">LF</div>
+                    </div>
+                    <div class="altpos-pos posrf stat-label-highest">
+                        <div class="altpos-inner-l1">97</div>
+                        <div class="altpos-inner-l2">RF</div>
+                    </div>
+                    <div class="altpos-pos poslf stat-label-highest">
+                        <div class="altpos-inner-l1">97</div>
+                        <div class="altpos-inner-l2">LF</div>
+                    </div>
+                    <div class="altpos-pos posrf stat-label-highest">
+                        <div class="altpos-inner-l1">97</div>
+                        <div class="altpos-inner-l2">RF</div>
+                    </div>
+                    <div class="altpos-pos posrw stat-label-highest">
+                        <div class="altpos-inner-l1">97</div>
+                        <div class="altpos-inner-l2">RW</div>
+                    </div>
+                    <div class="altpos-pos poslm stat-label-highest">
+                        <div class="altpos-inner-l1">96</div>
+                        <div class="altpos-inner-l2">LM</div>
+                    </div>
+                    <div class="altpos-pos posrm stat-label-highest">
+                        <div class="altpos-inner-l1">96</div>
+                        <div class="altpos-inner-l2">RM</div>
+                    </div>
+                    <div class="altpos-pos posrb stat-label-high">
+                        <div class="altpos-inner-l1">78</div>
+                        <div class="altpos-inner-l2">RB</div>
+                    </div>
+                    <div class="altpos-pos posrwb stat-label-high">
+                        <div class="altpos-inner-l1">80</div>
+                        <div class="altpos-inner-l2">RWB</div>
+                    </div>
+                    <div class="altpos-pos poslb stat-label-high">
+                        <div class="altpos-inner-l1">78</div>
+                        <div class="altpos-inner-l2">LB</div>
+                    </div>
+                    <div class="altpos-pos poslwb stat-label-high">
+                        <div class="altpos-inner-l1">80</div>
+                        <div class="altpos-inner-l2">LWB</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,599 @@
+.background-dark {
+    background: #282F30;
+}
+.wrap {
+    width: 96%;
+}
+
+.wrap {
+    position: relative;
+    width: 94%;
+    max-width: 1210px;
+    margin: 0px auto;
+}
+.playerprofile-head {
+    background: url(../../../assets/image/base/cm-background.jpg);
+}
+.playerprofile-hbar {
+    /* background: rgba(251,32,96,0.5); */
+    background:rgba(1,1,1,0.5);
+    padding: 10px;
+    color: #fff;
+}
+
+.playerprofile-hbar div {
+    display: inline-block;
+    font-family: 'DIN Pro Condensed medium';
+}
+.playerprofile-hbar-ttl {
+    margin-right: 20px;
+}
+.playerprofile-hbar-ttl h1 {
+    font-size: 26px;
+    margin: 0px;
+}
+.h1, h1 {
+    font-size: 2.5rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+element.style {
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+.playerprofile-hbar-ttl a {
+    color: #fff;
+}
+a {
+    color: #34AAB6;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+a, a:hover, a:active {
+    text-decoration: none!important;
+}
+
+.playerprofile-hbar-club img {
+    margin-top: -30px;
+    width: 30px;
+    height: 30px;
+
+
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.playerprofile-sep {
+    vertical-align: middle;
+    margin-top: -30px;
+    display: inline-block;
+    border-left: 1px solid #fff;
+    width: 2px;
+    height: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.playerprofile-hbar-nat img {
+    margin-top: -30px;
+    width: auto;
+    height: 24px;
+}
+.playerprofile-itemblock {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    width: 850px;
+}
+.playerprofile-item {
+    margin-left: -10px;
+    margin-top: -20px;
+    display: inline-block;
+}
+.card-20-gold {
+    background: url(https://www.futwiz.com/assets/img/fifa20/items/goldrare.png);
+    color: #46390c;
+    background-repeat: no-repeat;
+    background-size: 221px 310px;
+    background-position: center;
+}
+.card-20 {
+    font-family: 'DIN Pro Condensed Bold';
+    position: relative;
+    width: 204px;
+    height: 306px;
+    text-transform: uppercase;
+    line-height: normal !important;
+}
+.card-20-face {
+    position: absolute;
+    right: 22px;
+    top: 49px;
+    overflow: hidden;
+    width: 110px;
+    height: 110px;
+}
+.card-20-face-inner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.card-20-face-inner img {
+    height: 110px;
+}
+.card-20-badge {
+    position: absolute;
+    top: 123px;
+    left: 36px;
+    z-index: 11;
+}
+.card-20-badge img {
+    width: 32px;
+}
+.card-20-name {
+    font-family: 'DIN Pro Condensed Bold';
+    font-size: 20px;
+    position: absolute;
+    top: 160px;
+    left: 20px;
+    width: 164px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    z-index: 11;
+}
+.card-20-rating {
+    font-family: 'DIN Pro Condensed Regular';
+    font-size: 30px;
+    position: absolute;
+    top: 42px;
+    left: 33px;
+    width: 37px;
+    text-align: center;
+    z-index: 11;
+}
+.card-20-position {
+    font-family: 'DIN Pro Condensed Regular';
+    font-size: 15px;
+    position: absolute;
+    top: 73px;
+    left: 33px;
+    width: 38px;
+    text-align: center;
+    z-index: 11;
+}
+.card-20-atts {
+    font-family: 'DIN Pro Condensed Bold';
+    position: absolute;
+    top: 188px;
+    left: 42px;
+    z-index: 11;
+}
+.card-20-attnum1, .card-20-attnum2, .card-20-attnum3 {
+    position: absolute;
+}
+.card-20-attnum {
+    font-size: 15px;
+}
+.card-20-attlabel1, .card-20-attlabel2, .card-20-attlabel3 {
+    position: absolute;
+    left: 22px;
+}
+.card-20-attlabel {
+    font-family: 'DIN Pro Condensed Medium';
+    font-size: 15px;
+    top: 0px;
+}
+.card-20-attnum4, .card-20-attnum5, .card-20-attnum6 {
+    position: absolute;
+    left: 75px;
+}
+.card-20-attnum {
+    font-size: 15px;
+}
+.card-20-attlabel4, .card-20-attlabel5, .card-20-attlabel6 {
+    position: absolute;
+    left: 97px;
+}
+.card-20-attlabel {
+    font-family: 'DIN Pro Condensed Medium';
+    font-size: 15px;
+    top: 0px;
+}
+.card-20-atts2 {
+    position: absolute;
+    top: 19px;
+}
+.card-20-atts3 {
+    position: absolute;
+    top: 37px;
+}
+.card-20-flag {
+    position: absolute;
+    top: 99px;
+    left: 39px;
+    z-index: 11;
+}
+.card-20-flag img {
+    width: 25px;
+}
+.card-20-gold .card-20-split {
+    border-color: #645215;
+}
+.card-20-flag-split {
+    height: 23px;
+    width: 20px;
+    left: 42px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    position: absolute;
+    top: 97px;
+}
+.card-20-split {
+    z-index: 11;
+}
+.card-20-name-split {
+    height: 1px;
+    width: 120px;
+    left: 42px;
+    border-bottom: 1px solid;
+    position: absolute;
+    top: 184px;
+}
+.card-20-atts-split {
+    height: 49px;
+    width: 1px;
+    left: 102px;
+    border-left: 1px solid;
+    position: absolute;
+    top: 193px;
+}
+.card-20-chem-split {
+    height: 1px;
+    width: 30px;
+    left: 87px;
+    border-bottom: 1px solid;
+    position: absolute;
+    top: 252px;
+}
+.card-20-chemstyleimg {
+    position: absolute;
+    left: 50%;
+    margin-left: -14px;
+    bottom: 27px;
+    font-size: 20px;
+}
+.playerprofile-data {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+}
+.playerprofile-prices {
+    font-family: 'DIN Pro Condensed Bold';
+    text-transform: uppercase;
+    color: #fff;
+}
+.playerprofile-prices-data {
+    width: 280px;
+    display: inline-block;
+}
+.playerprofile-prices-xbox {
+    padding: 10px;
+    border-radius: 5px;
+    background: linear-gradient(to right,#b5e84a,#18b74c);
+}
+.pull-left {
+    float: left;
+}
+.playerprofile-prices-data .pricelogo img {
+    width: 80px;
+}
+.playerprofile-prices-data .priceupdate {
+    padding-top: 3px;
+}
+.playerprofile-price {
+    margin-top: 5px;
+    font-size: 40px;
+    text-align: right;
+    background-image: url(https://www.futwiz.com/assets/img/prices-coins.png);
+    background-repeat: no-repeat;
+    background-size: 120px 54px;
+    background-position: 0px 0px;
+}
+.playerprofile-prices-ps {
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+    background: linear-gradient(to right,#348ab2,#0551ff);
+}
+.playerprofile-info {
+    margin-top: 10px;
+    text-align: right;
+}
+.playerprofile-db {
+    margin-right: 20px;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    font-family: 'DIN Pro Condensed Bold';
+    text-transform: uppercase;
+}
+
+.ppdb-d {
+    font-size: 20px;
+     color: #aeea2e; 
+}
+.ppskills {
+    color: #fd2150;
+}
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em;
+}
+.ppdb-l {
+    font-size: 12px;
+    font-family: 'DIN Pro Condensed Medium';
+}
+p {
+    margin-bottom: 2px !important;
+    margin-top: 0px !important;
+}
+.playerprofile-other {
+    background: linear-gradient(to right,#222,#000);
+    display: block;
+    position: relative;
+    width: 100%;
+}
+.playerprofile-otherversion {
+    padding: 5px;
+    margin-left: 20px;
+}
+.playerprofile-otherversion a {
+    display: inline-block;
+    margin-left: 10px;
+    filter: drop-shadow(0px 0px 3px rgba(255,255,255,0.3));
+}
+.otherversion20-sbc {
+    background-image: url(https://www.futwiz.com/assets/img/fifa20/items/small/sbc.png);
+    color: #00fcff;
+}
+.otherversion20 {
+    width: 35px;
+    height: 46px;
+    position: relative;
+    background-size: 35px 46px;
+}
+.otherversion20-txt {
+    font-family: 'DIN Pro Condensed Bold';
+    font-size: 18px;
+    position: absolute;
+    top: 10px;
+    width: 36px;
+    text-align: center;
+}
+.playerprofile-stats {
+    background: #12131b;
+}
+.playerprofile-stats-data {
+    width: 100%;
+}
+.playerprofile-stats-data {
+    color: #fff;
+    
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    width: 850px;
+    display: inline-block;
+  
+}
+
+.row {
+  
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+ .stats .col-2 {
+    -ms-flex: 0 0 16.6%;
+    flex: 0 0 20%;
+    max-width: 16.6%;
+}
+
+ .statBlock {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+ .statBlock .title {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    border-bottom: 1px solid #dbdbdd;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+.pull-left {
+    float: left;
+}
+.padtop-5 {
+    padding-top: 5px;
+}
+.highestbarcolour {
+    background: #45b200;
+}
+.att1bar, .att2bar, .att3bar, .att4bar, .att5bar, .att6bar {
+  
+    float:right;
+    display: inline-block;
+    color: #fff;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 1px;
+}
+.individual-stat-container {
+    width: 100%;
+    position: relative;
+    height: 40px;
+}
+.individual-stat-bar-label {
+    float: left;
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 2px;
+}
+.individual-stat-bar-stat {
+    float: right;
+    font-size: 14px;
+    font-weight: 400;
+}
+.individual-stat-bar-back {
+    position: absolute;
+    left: 0px;
+    top: 25px;
+    width: 100%;
+    height: 4px;
+    background: #333;
+    clear: both;
+    border-radius: 2px;
+}
+.individual-stat-bar-front {
+    position: absolute;
+    left: 0px;
+    top: 25px;
+    height: 4px;
+    border-radius: 2px;
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.mediumbarcolour {
+    background: #daa800;
+}
+.lowbarcolour {
+    background: #bc1d19;
+}
+.playerprofile-pitch {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 0px;
+}
+.mb-20 {
+    margin-bottom: 20px !important;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.altpos-pitch {
+    width: 299px;
+    height: 365px;
+    background: url(https://www.futwiz.com/assets/img/site/icons/ratingPositionBG.png);
+    position: relative;
+}
+.altpos-pitch .poscb, .altpos-pitch .poscdm, .altpos-pitch .poscm, .altpos-pitch .poscam, .altpos-pitch .poscf, .altpos-pitch .posst {
+    right: 132px;
+}
+.altpos-pitch .poscb, .altpos-pitch .poslb, .altpos-pitch .posrb {
+    bottom: 40px;
+}
+.altpos-pos {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background: #4eb800;
+    border-radius: 200px;
+    box-shadow: 0px 0px 8px #000;
+    border: 1px solid #fff;
+}
+.altpos-inner-l1 {
+    position: absolute;
+    width: 35px;
+    text-align: center;
+    bottom: 1px;
+    color: #fff;
+    font-weight: bold;
+}
+.altpos-inner-l2 {
+    position: absolute;
+    width: 34px;
+    text-align: center;
+    top: 2px;
+    font-size: 10px;
+    color: #eee;
+}
+.altpos-pitch .poscdm {
+    bottom: 100px;
+}
+.altpos-pitch .poscm, .altpos-pitch .poslm, .altpos-pitch .posrm {
+    bottom: 160px;
+}
+.altpos-pitch .poscb, .altpos-pitch .poscdm, .altpos-pitch .poscm, .altpos-pitch .poscam, .altpos-pitch .poscf, .altpos-pitch .posst {
+    right: 132px;
+}
+.altpos-pitch .poscam {
+    bottom: 210px;
+}
+.altpos-pitch .poscf {
+    bottom: 260px;
+}
+.altpos-pitch .poscf {
+    bottom: 260px;
+}
+.altpos-pitch .poslw, .altpos-pitch .posrw {
+    bottom: 300px;
+}.altpos-pitch .poslb, .altpos-pitch .poslm, .altpos-pitch .poslw {
+    left: 20px;
+}
+.altpos-pitch .poslf {
+    left: 60px;
+}
+.altpos-pitch .poslf, .altpos-pitch .posrf {
+    bottom: 290px;
+}
+.altpos-pitch .posrf {
+    right: 60px;
+}
+.altpos-pitch .posst {
+    bottom: 320px;
+}
+.altpos-pitch .poslw, .altpos-pitch .posrw {
+    bottom: 300px;
+}
+.altpos-pitch .posrb, .altpos-pitch .posrm, .altpos-pitch .posrw {
+    right: 20px;
+}
+.altpos-pitch .poslwb {
+    left: 10px;
+    bottom: 80px;
+}
+.altpos-pitch .posrwb {
+    right: 10px;
+    bottom: 80px;
+}
